@@ -3,8 +3,8 @@
 A demonstration project showcasing how to create **custom Android Lint rules** for Jetpack Compose applications. This project specifically implements a lint rule that detects and flags hardcoded colors in Compose code, encouraging developers to use centralized color definitions instead.
 
 ## 📸 Screenshot
+<img width="1440" height="900" alt="Screenshot 2025-12-14 at 8 10 44 PM" src="https://github.com/user-attachments/assets/fae02bc5-db4d-4a11-a587-3dea2f73d481" />
 
-![Lint Warning in Action](screenshot.png)
 
 *The custom lint rule in action - detecting hardcoded colors in Jetpack Compose and providing helpful guidance.*
 
