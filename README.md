@@ -157,16 +157,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 - [Writing Custom Lint Rules](https://developer.android.com/studio/write/lint)
 - [UAST Documentation](https://plugins.jetbrains.com/docs/intellij/uast.html)
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Add new lint rules for other common issues
-- Improve detection patterns
-- Add unit tests for the detector
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
