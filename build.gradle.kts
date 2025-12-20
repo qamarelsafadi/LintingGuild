@@ -8,8 +8,13 @@ plugins {
 
 gradle.projectsEvaluated {
     subprojects {
-        tasks.named("build").configure {
-            dependsOn("lint")
+        val configureBuildLintDependency = Action<Plugin<*>> {
+            tasks.named("build").configure {
+                dependsOn("lint")
+            }
         }
+
+        plugins.withId("com.android.application", configureBuildLintDependency)
+        plugins.withId("com.android.library", configureBuildLintDependency)
     }
 }
